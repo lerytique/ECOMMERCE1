@@ -5,10 +5,10 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/lerytique/ecommerce/controllers"
-	"github.com/lerytique/ecommerce/database"
-	"github.com/lerytique/ecommerce/middleware"
-	"github.com/lerytique/ecommerce/routes"
+	"github.com/lerytique/ECOMMERCE1/controllers"
+	"github.com/lerytique/ECOMMERCE1/database"
+	"github.com/lerytique/ECOMMERCE1/middleware"
+	"github.com/lerytique/ECOMMERCE1/routes"
 )
 
 func main() {

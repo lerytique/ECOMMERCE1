@@ -1,8 +1,7 @@
 package routes
 
 import (
-	"ecommerce/controllers"
-
+	"../controllers"
 	"github.com/gin-gonic/gin"
 )
 

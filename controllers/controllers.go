@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"github.com/lerytique/ecommerce/database"
-	"github.com/lerytique/ecommerce/models"
+	"github.com/lerytique/ECOMMERCE1/database"
+	"github.com/lerytique/ECOMMERCE1/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"golang.org/x/crypto/bcrypt"
