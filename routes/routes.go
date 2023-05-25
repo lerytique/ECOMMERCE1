@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"../controllers"
 	"github.com/gin-gonic/gin"
+	"github.com/lerytique/ECOMMERCE1/controllers"
 )
 
 func UserRoutes(IncomingRoutes *gin.Engine) {
@@ -11,5 +11,4 @@ func UserRoutes(IncomingRoutes *gin.Engine) {
 	IncomingRoutes.POST("/admin/addproduct", controllers.ProductViewerAdmin())
 	IncomingRoutes.POST("/user/productview", controllers.SearchProduct())
 	IncomingRoutes.POST("/user/search", controllers.SearchProductByQuery())
-
 }
