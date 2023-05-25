@@ -1,3 +1,3 @@
-module github.com/lerytique/ECOMMERCE1/tree/test
+module github.com/lerytique/ECOMMERCE1
 
 go 1.20
